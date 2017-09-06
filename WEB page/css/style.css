@@ -1,0 +1,333 @@
+body {
+  font:  15px/1.5 Arial,Helvetica,sans-serif;
+  background-color:GhostWhite;
+  background-attachment:fixed;
+  padding: 0;
+  margin: 0;
+}
+/*global container */
+
+img {
+  max-width: 70%;
+  border-radius: 8px;
+  padding: 2px;
+  box-shadow: 0 7px 10px 0 #380204, 0 6px 20px 0 #3f3a02;
+}
+
+.dark{
+  padding: 15px;
+  background: #27175D;
+  color: #ffffff;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.container{
+  width: 80%;
+  margin: auto;
+  overflow: hidden;
+}
+.button_1{
+  height: 38px;
+  background: #e8491d;
+  border: 0;
+  padding-left: 20px;
+  padding-right: 20px;
+  color: #ffffff;
+}
+header{
+  background: #27175D;
+  color: #ffffff;
+  padding-top: 30px;
+  min-height: 70px;
+  border-bottom: #9C1B04 3px solid;
+}
+header a{
+  color:#ffffff;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 14px;
+}
+header ul{
+  margin:0;
+  padding: 0;
+}
+header li{
+  float: left;
+  display: inline;
+  padding: 0px 20px 0px 20px;
+}
+header #branding{
+  float: left;
+}
+header #branding h1{
+  margin: 0;
+}
+header nav{
+  float:right;
+  margin-top: 5px;
+  margin-bottom: 10px
+}
+header .highlight, header .current a{
+  color:#e8491d;
+  font-weight: bold;
+}
+header a:hover{
+  color: #cccccc;
+  font-weight: bold;
+}
+/*showcase*/
+
+#showcase{
+  min-height: 400px;
+  background: url(../img/pacman.jpg) no-repeat 0 -460px;
+  text-align: center;
+  color: #FAE9E9;
+}
+
+#showcase h1{
+  margin-top: 25px;
+  font-size: 50px;
+  margin-bottom: 235px;
+}
+
+#showcase p{
+  font-size: 22px;
+}
+/*information*/
+#information{
+  padding: 15px;
+  color: #ffffff;
+  background: #27175D;
+  border-bottom: #9C1B04 3px solid;
+}
+#information h2{
+  float: left;
+}
+#information form{
+  float:right;
+  margin-top: 18px;
+}
+
+#information input[type=email]{
+  padding: 4px;
+  height: 25px;
+  width: 250px;
+}
+
+/*boxes */
+#cajita {
+  margin-top: 20px;
+}
+
+#cajita .box {
+float:left;
+width: 20%;
+padding: 15px;
+text-align: center;
+}
+
+#cajita .box img{
+  width: 100px;
+}
+
+#cajita .box a{
+  font-weight: bold;
+  color: #0E0202;
+  text-decoration: none
+}
+#cajita .box a:hover{
+  color:#AC0958;
+  font-weight: bold;
+}
+footer{
+  padding: 20px;
+  margin-top: 20px;
+  color: #ffffff;
+  background-color: #e8491d;
+  text-align: center;
+}
+
+.topOf {
+  padding: 10px;
+  text-align: center;
+  text-shadow: 0.1px 0px #3a040c;
+  background-color: #27175D;
+  color: #ffffff;
+  border-bottom: #9C1B04 3px solid;
+}
+
+/*pewpew*/
+.pewpew {
+  color:#e8491d;
+  height: auto;
+  margin: auto;
+  overflow: hidden;
+  background-color:#c7dfe5;
+  text-align:center;
+}
+.pewpew h1{
+  font-weight: bold;
+  margin-top:10px;
+}
+.pewpew img{
+max-width: 50%;
+margin-bottom: 10px;
+}
+.pewpew p{
+  font-size: 22px;
+}
+/*my games*/
+.myGames{
+  background-color: #DDEFFA ;
+  width: 100%;
+  padding: 10px 0px 0px 0px;
+  color: #9C1B04;
+  text-align: center;
+  border-bottom: #9C1B04 3px solid;
+}
+
+.myGames h3 {
+  text-align:center;
+  color:#0f0500;
+  margin-top: 30px;
+}
+.myGames p {
+  color:#1e1700;
+  margin: auto;
+  margin-top: 3px;
+  margin-bottom: 20px;
+}
+.myGames ol{
+    padding:12px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.myGames ol li h4{
+  padding: 15px;
+  color:#9C1B04;
+  border-top: #9C1B04 3px solid;
+}
+.myGames ol p{
+  color: #9C1B04;
+  padding: 15px;
+  font-size: 20px;
+}
+
+.myGames table{
+  margin-left: 15%;
+  margin-right: 15%;
+  margin-top: 25px;
+  color:#EA6A0C;
+  text-align: center;
+  border-collapse: collapse;
+  width: 70%;
+}
+
+.myGames table, th, td {
+    border: 1px solid black;
+
+}
+.myGames table th{
+   background-color: #0F076F ;
+}
+.myGames table tr:hover {
+  background-color:  #27175D;
+}
+
+/*someothers*/
+.someOthers {
+  color:#040844;
+  list-style-type: lower-alpha;
+  list-style-position: inside;
+  padding: 10;
+  background: #cce5ff;
+  width: 80%;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-bottom: 10px;
+}
+.someOthers dl{
+
+}
+
+.someOthers dt {
+  list-style-type: square;
+  color:#9C1B04;
+  background: #ffe5e5;
+  padding: 10px;
+  margin-left: 35px;
+  margin-right: 50px;
+}
+.someOthers dd{
+  list-style-type: square;
+  color: #ffffff;
+  background:#27175D;
+  margin-left: 45px;
+  margin-right: 50px;
+  }
+
+  /*sidebar*/
+
+  aside#sidebar{
+    float: right;
+    width: 30%;
+    margin-top: 20px;
+  }
+
+aside#sidebar .quote input, aside#sidebar .quote textarea{
+  width: 90%;
+  padding: 5px;
+}
+
+  article#maincol{
+    float: left;
+    width: 65%;
+  }
+
+  /*services*/
+
+  ul#services li{
+    list-style: none;
+    padding: 20px;
+    border: #cccccc solid 2px;
+    margin-bottom: 5px;
+    background: #e6e6e6;
+  }
+
+
+/*media Queris*/
+
+@media (max-width: 768px) {
+header #branding,
+header nav,
+header nav li,
+#information h2,
+#information form,
+#cajita .box,
+article#maincol,
+aside#sidebar,
+#dark{
+  float: none;
+  text-align: center;
+  width: 100%;
+  font-size: 18px;
+  background-size: cover; 
+}
+header{
+  padding-bottom: 10px;
+}
+#showcase h1{
+  margin-top: 40px;
+}
+#information button, .quote button{
+  display: block;
+  width: 100%;
+}
+#information form input[type="email"], .quote input, .quote textarea{
+  width: 100%;
+  margin-bottom: 7px;
+}
+
+}
